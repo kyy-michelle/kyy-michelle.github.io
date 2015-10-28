@@ -1,2 +1,2 @@
-# kyy-michelle.github.io
+# kyymichelle.github.io
 Michelle Yeung's website
