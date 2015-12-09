@@ -24,6 +24,7 @@ jQuery(function($) {
 		var curIndex 	= slider.filter('.active').index();
 		var menuItems 	= $('.main-nav ul').find('li');
 		menuItems.removeClass('active').eq(curIndex).addClass('active');
+		window.scrollTo(0,0);
 	});
 
 	//Contact Form

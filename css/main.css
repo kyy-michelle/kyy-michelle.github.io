@@ -117,6 +117,7 @@ a:hover {
 #header .nav-button{
   display: inline-block;
   margin-top: 10px;
+  margin-left: 15px;
   text-transform: uppercase;
 }
 
@@ -134,7 +135,7 @@ a:hover {
 
 .main-nav {
   background-color: #fff;
-  width: 320px;
+  width: 260px;
   display: inline-block;
   position: relative;
 }
@@ -160,6 +161,7 @@ a:hover {
   font-weight: 700;
   font-size: 36px;
   color:#5e5e5e;
+  text-decoration: none !important;
 }
 
 .main-nav ul li:first-child a {
