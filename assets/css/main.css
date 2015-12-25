@@ -2169,7 +2169,7 @@
 		position: relative;
 	}
 
-		.image:before {
+		/*.image:before {
 			background: url("images/overlay.png");
 			content: '';
 			display: block;
@@ -2178,7 +2178,7 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
+		}*/
 
 		.image img {
 			display: block;
@@ -2208,6 +2208,9 @@
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+		    max-height: 380px;
+    		overflow: hidden;
+    		text-align: center;
 		}
 
 			.image.fit img {
@@ -2225,6 +2228,10 @@
 		ol li {
 			padding-left: 0.25em;
 		}
+
+	.skills-list ul {
+		list-style: none !important;
+	}
 
 	ul.content-list {
 		text-align: left;
