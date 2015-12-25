@@ -9,17 +9,17 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: rgba(255, 255, 255, .9);
-  text-shadow: 1px 1px 1px rgba(5, 5, 5, .7);
+  text-shadow: 1px 1px 0 rgba(5, 5, 5, .7);
   font-weight: 400;
 }
 
 body,
 .preloader {
-  background: -webkit-linear-gradient(90deg, #859398 10%, #4389A2 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #859398 10%, #4389A2 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #859398 10%, #4389A2 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #859398 10%, #4389A2 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #859398 10%, #4389A2 90%); /* W3C */   
+  background: -webkit-linear-gradient(90deg, #F59D56 10%, #A5D5E6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F59D56 10%, #A5D5E6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F59D56 10%, #A5D5E6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F59D56 10%, #A5D5E6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F59D56 10%, #A5D5E6 90%); /* W3C */   
 }
 
 qbody, .qpreloader {
