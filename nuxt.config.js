@@ -36,7 +36,8 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/markdownit'
   ],
   /*
    ** Axios module configuration

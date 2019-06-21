@@ -9,6 +9,7 @@
         Michelle Yeung&#39;s personal website
       </h2>
       <div class="links">
+        <nuxt-link to="/blog" class="button--grey">Blog</nuxt-link>
         <a href="https://nuxtjs.org/" target="_blank" class="button--green"
           >Documentation</a
         >
