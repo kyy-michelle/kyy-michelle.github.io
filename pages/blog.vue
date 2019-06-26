@@ -1,20 +1,23 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <nuxt-link to="/" class="button--grey">Back to Home</nuxt-link>
-    </div>
-    <div class="row">
-      <div class="contentWrapper content" v-html="content"></div>
-    </div>
+  <div>
+    <section-content>
+      <nuxt-link to="/" class="">Back to Home</nuxt-link>
+      <div class="" v-html="blogContent"></div>
+    </section-content>
   </div>
 </template>
 
 <script>
+import SectionContent from '~/components/SectionContent.vue'
 import BlogContent from '~/static/markdown/blog.md'
+
 export default {
+  components: {
+    SectionContent
+  },
   data() {
     return {
-      content: BlogContent
+      blogContent: BlogContent
     }
   }
 }

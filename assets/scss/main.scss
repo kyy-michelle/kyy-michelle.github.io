@@ -1,0 +1,17 @@
+// Bootstrap
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Fonts
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+
+// Basic global styling
+body {
+  font-family: 'Raleway', Helvetica, sans-serif;
+  background-color: $gray-800;
+}
+
+code {
+  background-color: $gray-200;
+}
