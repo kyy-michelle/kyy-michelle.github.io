@@ -37,12 +37,22 @@ export default {
 
 <style lang="scss">
 .header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  // margin-bottom: -10px;
   font-size: 3em;
   line-height: 1.25em;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
   text-shadow: 1px 2px 0 rgba(5, 5, 5, 0.4);
+
+  .title,
+  .subtitle {
+    font-weight: bold;
+  }
 
   .title {
     &::after {
