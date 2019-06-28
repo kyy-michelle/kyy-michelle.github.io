@@ -11,7 +11,7 @@
 
     <section-content id="main-content" class="mb-5">
       <div class="d-block text-center">
-        <button-link href="#main-content">Portfolio</button-link>
+        <button-anchor anchor="#main-content">Portfolio</button-anchor>
       </div>
       <nav-main></nav-main>
       <div v-html="profileContent"></div>
@@ -20,14 +20,14 @@
 </template>
 
 <script>
-import ButtonLink from '~/components/ButtonLink'
+import ButtonAnchor from '~/components/ButtonAnchor'
 import NavMain from '~/components/NavMain'
 import SectionContent from '~/components/SectionContent'
 import ProfileContent from '~/static/markdown/profile.md'
 
 export default {
   components: {
-    ButtonLink,
+    ButtonAnchor,
     NavMain,
     SectionContent
   },

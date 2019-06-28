@@ -37,7 +37,8 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     // '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    ['vue-scrollto/nuxt', { duration: 600 }]
   ],
   /*
    ** Axios module configuration
