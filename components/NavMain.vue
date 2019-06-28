@@ -1,12 +1,33 @@
 <template>
-  <nav class="nav">
-    <nuxt-link to="/" class="nav-link">Home</nuxt-link>
-    <nuxt-link to="/blog" class="nav-link">Blog</nuxt-link>
+  <nav>
+    <ul class="nav nav-pills nav-fill">
+      <li class="nav-item">
+        <nuxt-link to="/#anchor-index" class="nav-link">Home</nuxt-link>
+      </li>
+      <li class="nav-item">
+        <nuxt-link to="/games" class="nav-link">Games</nuxt-link>
+      </li>
+      <li class="nav-item">
+        <nuxt-link to="/art" class="nav-link">Art</nuxt-link>
+      </li>
+      <li class="nav-item">
+        <nuxt-link to="/blog" class="nav-link">Blog</nuxt-link>
+      </li>
+      <li class="nav-item">
+        <a v-scroll-to="'#anchor-footer'" href="#anchor-footer" class="nav-link"
+          >Contact</a
+        >
+      </li>
+    </ul>
   </nav>
 </template>
 
 <style lang="scss" scoped>
-// .content {
-//   border-radius: 7px;
-// }
+.nav-link {
+  border-radius: 0;
+
+  &.active {
+    border-bottom: none;
+  }
+}
 </style>

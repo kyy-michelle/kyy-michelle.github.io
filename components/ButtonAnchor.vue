@@ -1,5 +1,5 @@
 <template>
-  <a v-scroll-to="anchor" href="#" class="btn btn-primary">
+  <a v-scroll-to="anchor" :href="anchor" class="btn btn-primary">
     <slot>Return</slot>
   </a>
 </template>

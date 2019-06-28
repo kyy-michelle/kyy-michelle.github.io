@@ -9,13 +9,16 @@
       </h3>
     </header>
 
-    <section-content id="main-content" class="mb-5">
-      <div class="d-block text-center">
-        <button-anchor anchor="#main-content">Portfolio</button-anchor>
-      </div>
-      <nav-main></nav-main>
-      <div v-html="profileContent"></div>
-    </section-content>
+    <main id="main-content" class="d-block">
+      <section-content>
+        <div class="d-block text-center pb-1 border-underline">
+          <button-anchor anchor="#anchor-index">&#8675; Profile</button-anchor>
+        </div>
+        <nav-main id="anchor-index" class="pt-3"></nav-main>
+        <div class="pt-3" v-html="profileContent"></div>
+      </section-content>
+      <section-footer></section-footer>
+    </main>
   </div>
 </template>
 
@@ -23,13 +26,16 @@
 import ButtonAnchor from '~/components/ButtonAnchor'
 import NavMain from '~/components/NavMain'
 import SectionContent from '~/components/SectionContent'
+import SectionFooter from '~/components/SectionFooter'
 import ProfileContent from '~/static/markdown/profile.md'
 
 export default {
+  layout: 'home',
   components: {
     ButtonAnchor,
     NavMain,
-    SectionContent
+    SectionContent,
+    SectionFooter
   },
   data() {
     return {

@@ -14,6 +14,11 @@ For simplicity in writing and displaying this blog as well as other content page
 #### Asset paths
 Had a bit of a slip up with asset paths. Was trying to add a background-image inside a style block like so `background-image: url('~/images/bg.jpg')`. Turns out `~` are used [as module requests](https://vuejs-templates.github.io/webpack/static.html), and so I should have used a root relative path instead.
 
+#### Design
+For the design I wanted to retain a similar theme, but improve upon the layout by making the main content container wider and more responsive. Transitions as the user scrolls down the page (shown in the screenshot below) is also something I'd like to keep.
+
+![Old website screenshot](/images/blog/site-old.jpg)
+
 #### Customising Bootstrap
 To start theming the site, one of the first things I did was to customise the Bootstrap SASS variables. To do that, I followed [this guide](https://bootstrap-vue.js.org/docs/reference/theming/) at BootstrapVue and created a `custom.scss` file to import into `main.scss`.
 

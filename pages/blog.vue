@@ -1,20 +1,11 @@
 <template>
-  <div>
-    <section-content>
-      <nuxt-link to="/" class="">Back to Home</nuxt-link>
-      <div class="" v-html="blogContent"></div>
-    </section-content>
-  </div>
+  <div class="" v-html="blogContent"></div>
 </template>
 
 <script>
-import SectionContent from '~/components/SectionContent'
 import BlogContent from '~/static/markdown/blog.md'
 
 export default {
-  components: {
-    SectionContent
-  },
   data() {
     return {
       blogContent: BlogContent

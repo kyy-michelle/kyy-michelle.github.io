@@ -57,5 +57,9 @@ export default {
   bootstrapVue: {
     bootstrapCSS: false, // Or `css: false`
     bootstrapVueCSS: false // Or `bvCSS: false`
+  },
+  router: {
+    linkActiveClass: '',
+    linkExactActiveClass: 'active'
   }
 }

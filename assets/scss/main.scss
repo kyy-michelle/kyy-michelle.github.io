@@ -33,3 +33,22 @@ a {
     text-decoration: none;
   }
 }
+
+.border-underline {
+  &::after {    
+    content: '';
+    display: block;
+    height: 2px;
+    margin: .75em auto 0;
+    position: relative;
+    width: 10em;
+    border-bottom: 2px dotted $gray-400;
+  }
+}
+
+.container {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

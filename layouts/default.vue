@@ -1,8 +1,35 @@
 <template>
-  <div class="container-body py-5">
-    <nuxt />
+  <div class="container-body">
+    <main class="d-block">
+      <section-content>
+        <nav-main id="nav-main" class="mb-5"></nav-main>
+        <nuxt />
+      </section-content>
+      <section-footer></section-footer>
+    </main>
   </div>
 </template>
+
+<script>
+import NavMain from '~/components/NavMain'
+import SectionContent from '~/components/SectionContent'
+import SectionFooter from '~/components/SectionFooter'
+import ProfileContent from '~/static/markdown/profile.md'
+
+export default {
+  layout: 'home',
+  components: {
+    NavMain,
+    SectionContent,
+    SectionFooter
+  },
+  data() {
+    return {
+      profileContent: ProfileContent
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 .container-body {
