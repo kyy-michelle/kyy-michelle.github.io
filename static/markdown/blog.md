@@ -13,3 +13,8 @@ For simplicity in writing and displaying this blog as well as other content page
 
 #### Asset paths
 Had a bit of a slip up with asset paths. Was trying to add a background-image inside a style block like so `background-image: url('~/images/bg.jpg')`. Turns out `~` are used [as module requests](https://vuejs-templates.github.io/webpack/static.html), and so I should have used a root relative path instead.
+
+#### Customising Bootstrap
+To start theming the site, one of the first things I did was to customise the Bootstrap SASS variables. To do that, I followed [this guide](https://bootstrap-vue.js.org/docs/reference/theming/) at BootstrapVue and created a `custom.scss` file to import into `main.scss`.
+
+Turns out the `boostrap-vue/nuxt` module automatically imports Bootstrap SCSS. So for a good while I had been importing Bootstrap twice - once automatically and the second time so that I could overwrite the theme variables. Something to be mindful of next time is to [disable the automatic import](https://bootstrap-vue.js.org/docs/#nuxtjs-module) of the Bootstrap/BoostrapVue css.

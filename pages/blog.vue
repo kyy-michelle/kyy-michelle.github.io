@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import SectionContent from '~/components/SectionContent.vue'
+import SectionContent from '~/components/SectionContent'
 import BlogContent from '~/static/markdown/blog.md'
 
 export default {

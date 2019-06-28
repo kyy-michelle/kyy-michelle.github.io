@@ -23,7 +23,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/scss/custom.scss', '@/assets/scss/main.scss'],
+  css: ['@/assets/scss/main.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -35,7 +35,7 @@ export default {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
+    // '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
     '@nuxtjs/markdownit'
   ],
@@ -52,5 +52,9 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  bootstrapVue: {
+    bootstrapCSS: false, // Or `css: false`
+    bootstrapVueCSS: false // Or `bvCSS: false`
   }
 }

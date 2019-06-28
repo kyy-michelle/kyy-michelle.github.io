@@ -9,22 +9,26 @@
       </h3>
     </header>
 
-    <section-content>
-      <nuxt-link to="/blog">Blog</nuxt-link>
-      <button-primary></button-primary>
-      <div class="" v-html="profileContent"></div>
+    <section-content id="main-content" class="mb-5">
+      <div class="d-block text-center">
+        <button-link href="#main-content">Portfolio</button-link>
+      </div>
+      <nav-main></nav-main>
+      <div v-html="profileContent"></div>
     </section-content>
   </div>
 </template>
 
 <script>
-import ButtonPrimary from '~/components/ButtonPrimary.vue'
-import SectionContent from '~/components/SectionContent.vue'
+import ButtonLink from '~/components/ButtonLink'
+import NavMain from '~/components/NavMain'
+import SectionContent from '~/components/SectionContent'
 import ProfileContent from '~/static/markdown/profile.md'
 
 export default {
   components: {
-    ButtonPrimary,
+    ButtonLink,
+    NavMain,
     SectionContent
   },
   data() {
@@ -36,12 +40,15 @@ export default {
 </script>
 
 <style lang="scss">
+$content-lead-height: 68px; // Anchor link container height
+
 .header-content {
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 80vh;
-  // margin-bottom: -10px;
+  height: 100%;
+  width: 100%;
   font-size: 3em;
   line-height: 1.25em;
   text-align: center;
@@ -65,5 +72,17 @@ export default {
       width: 4em;
     }
   }
+
+  .subtitle {
+    padding-bottom: $content-lead-height + 10px;
+  }
+}
+
+#main-content {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 100%;
+  margin-top: -$content-lead-height;
 }
 </style>
