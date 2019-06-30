@@ -11,7 +11,7 @@
 
     <div id="main-content" class="d-block">
       <content-container>
-        <div class="d-block text-center pb-1 border-underline">
+        <div class="d-block text-center pb-1">
           <button-anchor anchor="#anchor-index">&#8675; Profile</button-anchor>
         </div>
         <nav-main id="anchor-index" class="pt-3"></nav-main>

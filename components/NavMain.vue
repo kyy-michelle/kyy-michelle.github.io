@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <ul class="nav nav-pills nav-fill">
+    <ul class="nav-main nav nav-pills nav-fill">
       <li class="nav-item">
         <nuxt-link to="/#anchor-index" class="nav-link">Home</nuxt-link>
       </li>
@@ -23,11 +23,16 @@
 </template>
 
 <style lang="scss" scoped>
-.nav-link {
-  border-radius: 0;
+.nav {
+  .nav-item {
+    .nav-link {
+      border-radius: 0;
+      border-bottom: none;
 
-  &.active {
-    border-bottom: none;
+      &.active {
+        border-bottom: none;
+      }
+    }
   }
 }
 </style>
