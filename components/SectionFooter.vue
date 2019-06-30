@@ -1,6 +1,6 @@
 <template>
   <footer id="anchor-footer">
-    <section-content wrapper-class="footer">
+    <content-container wrapper-class="footer">
       <h2>Contact</h2>
       <p>
         Email me at
@@ -11,16 +11,16 @@
           >LinkedIn</a
         >
       </p>
-    </section-content>
+    </content-container>
   </footer>
 </template>
 
 <script>
-import SectionContent from '~/components/SectionContent'
+import ContentContainer from '~/components/ContentContainer'
 
 export default {
   components: {
-    SectionContent
+    ContentContainer
   }
 }
 </script>

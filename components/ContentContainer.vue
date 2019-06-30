@@ -1,5 +1,5 @@
 <template>
-  <section :class="wrapperClass">
+  <div :class="wrapperClass">
     <div class="container">
       <div class="row">
         <div class="content col-md-10 offset-md-1 px-3 px-md-4">
@@ -7,7 +7,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>

@@ -1,18 +1,18 @@
 <template>
-  <div class="container-body">
-    <main class="d-block">
-      <section-content>
-        <nav-main id="nav-main" class="mb-5"></nav-main>
+  <div class="wrapper-body">
+    <content-container>
+      <nav-main id="nav-main"></nav-main>
+      <main class="py-5">
         <nuxt />
-      </section-content>
-      <section-footer></section-footer>
-    </main>
+      </main>
+    </content-container>
+    <section-footer></section-footer>
   </div>
 </template>
 
 <script>
 import NavMain from '~/components/NavMain'
-import SectionContent from '~/components/SectionContent'
+import ContentContainer from '~/components/ContentContainer'
 import SectionFooter from '~/components/SectionFooter'
 import ProfileContent from '~/static/markdown/profile.md'
 
@@ -20,7 +20,7 @@ export default {
   layout: 'home',
   components: {
     NavMain,
-    SectionContent,
+    ContentContainer,
     SectionFooter
   },
   data() {
@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style lang="scss">
-.container-body {
+.wrapper-body {
   &::before {
     content: '';
     display: block;

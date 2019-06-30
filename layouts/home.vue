@@ -1,11 +1,11 @@
 <template>
-  <div class="container-body py-5">
+  <div class="wrapper-body py-5">
     <nuxt />
   </div>
 </template>
 
 <style lang="scss">
-.container-body {
+.wrapper-body {
   &::before {
     content: '';
     display: block;
