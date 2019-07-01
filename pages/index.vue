@@ -12,10 +12,10 @@
     <div id="main-content" class="d-block">
       <content-container>
         <div class="d-block text-center pb-1">
-          <button-anchor anchor="#anchor-index">&#8675; Profile</button-anchor>
+          <button-anchor anchor="#nav-main">&#8675; Profile</button-anchor>
         </div>
-        <nav-main id="anchor-index" class="pt-3"></nav-main>
-        <main class="py-5" v-html="profileContent"></main>
+        <nav-main id="nav-main" class="pt-3"></nav-main>
+        <main class="pt-3 pb-5" v-html="profileContent"></main>
       </content-container>
       <section-footer></section-footer>
     </div>
@@ -90,5 +90,13 @@ $content-lead-height: 68px; // Anchor link container height
   width: 100%;
   top: 100%;
   margin-top: -$content-lead-height;
+
+  h3 {
+    margin-bottom: 24px;
+  }
+
+  ul {
+    margin-bottom: 32px;
+  }
 }
 </style>

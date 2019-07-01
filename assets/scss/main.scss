@@ -18,9 +18,16 @@ code {
   background-color: $gray-200;
 }
 
-p,
-li {
-  font-size: 0.95rem;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  letter-spacing: .075em;
+  line-height: 1em;
+  // margin: 0 0 1em;
+  // text-transf  orm: uppercase;
+
+  a {
+    color: $gray-800;
+  }
 }
 
 a {

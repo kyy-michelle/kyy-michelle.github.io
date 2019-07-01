@@ -1,4 +1,6 @@
-Woohoo! My website revamp is underway - here's some notes I've taken along the way. The github project can be found [here](https://github.com/kyymichelle/kyymichelle.github.io)
+## Blog
+
+Woohoo! My website revamp is underway - here's a blog of some notes I've taken along the way. The code for this site can be found [on github](https://github.com/kyymichelle/kyymichelle.github.io)
 
 #### Why Vue and Nuxt
 Without [rehashing too much](https://vuejs.org/v2/guide/index.html), I found that Vue's lightweight and approachable nature to be perfect for updating my site. It is also a framework I've been meaning to learn, having had some previous experience with React and AngularJS. 
@@ -15,7 +17,7 @@ For simplicity in writing and displaying this blog as well as other content page
 Had a bit of a slip up with asset paths. Was trying to add a background-image inside a style block like so `background-image: url('~/images/bg.jpg')`. Turns out `~` are used [as module requests](https://vuejs-templates.github.io/webpack/static.html), and so I should have used a root relative path instead.
 
 #### Design
-For the design I wanted to retain a similar theme, but improve upon the layout by making the main content container wider and more responsive. Transitions as the user scrolls down the page (shown in the screenshot below) is also something I'd like to keep.
+For the design I wanted to retain a similar theme, but improve upon the layout by making the main content container wider and by breaking up the content into separate pages. Transitions as the user scrolls down the page (shown in the screenshot of the old theme below) is also something I'd like to keep.
 
 ![Old website screenshot](/images/blog/site-old.jpg)
 

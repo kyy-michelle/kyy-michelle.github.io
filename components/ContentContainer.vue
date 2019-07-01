@@ -2,7 +2,7 @@
   <div :class="wrapperClass">
     <div class="container">
       <div class="row">
-        <div class="content col-md-10 offset-md-1 px-3 px-md-4">
+        <div class="content col-md-8 offset-md-2 px-3 px-md-4">
           <slot></slot>
         </div>
       </div>

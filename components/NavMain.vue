@@ -2,7 +2,7 @@
   <nav>
     <ul class="nav-main nav nav-pills nav-fill">
       <li class="nav-item">
-        <nuxt-link to="/#anchor-index" class="nav-link">Home</nuxt-link>
+        <nuxt-link to="/#nav-main" class="nav-link">Home</nuxt-link>
       </li>
       <li class="nav-item">
         <nuxt-link to="/games" class="nav-link">Games</nuxt-link>

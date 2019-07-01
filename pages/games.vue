@@ -1,5 +1,7 @@
 <template>
-  <div class="" v-html="gamesContent"></div>
+  <div class="page-games">
+    <div v-html="gamesContent"></div>
+  </div>
 </template>
 
 <script>
@@ -13,3 +15,12 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.page-games {
+  img {
+    max-width: 400px;
+    margin-top: 24px;
+  }
+}
+</style>

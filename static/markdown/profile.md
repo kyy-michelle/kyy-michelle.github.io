@@ -1,28 +1,34 @@
-## Work Experience
+### Work Experience
 
-### [Red Ant](https://redant.com.au/)
-#### Front End Developer (May 2016 - Present)
+#### [Red Ant](https://redant.com.au/)
+##### Front End Developer (May 2016 - Present)
+Worked as part of the Front End team at an agency that specialises in delivering Ruby on Rails projects.
+
 * Implemented a product rebrand and new features on a popular Australian [health and fitness subscription service](https://www.12wbt.com/) using AngularJS. 
 * [Migrated](https://www.voome.com.au/) AngularJS components to use Redux state management, this included writing unit tests in Jest and setting up automated UI tests in Ghost Inspector.
 * Created and styled React/Redux components for a growing online property management application.
 * Ongoing Ruby on Rails (Radiant CMS) maintenance and content management for a leading [nappy and childcare product brand](https://www.huggies.com.au).
 * Conducted web accessibility tests on a [Ruby on Rails website](https://www.nps.org.au/) and made fixes in order for it to conform to Level AA of the WCAG 2.0.
 
-### [The Gingerbread Man](http://www.thegingerbreadman.com.au/home)
-#### Junior Web Developer (Dec 2013 - Apr 2016)
+#### [The Gingerbread Man](http://www.thegingerbreadman.com.au/home)
+##### Junior Web Developer (Dec 2013 - Apr 2016)
+Worked on various web and desktop application projects with a small team of developers at a combined development and film post-production company.
+
 * Built and designed mobile responsive websites, widgets, email templates and HTML5 ads primarily using PHP and Javascript (jQuery, AngularJS).
 * Created and maintained over 20 websites on platforms including [Wordpress](https://lovesupreme.com.au/), Drupal, [Orchard](http://www.ecosave.com.au/) and [Squarespace](http://www.divineimages.com.au/).
 * Developed a custom C# .NET [desktop application](http://www.socialseen.com.au/socialpod/) that watermarks, prints and uploads photographs. This was later integrated with the Instagram API to print photos based on hashtags. The system printed over 5500 photographs and gathered over 4000 unique email addresses at events run by the client. 
 * Developed an educational touchscreen application in Unity C# that was on display at the 2016 Sydney Royal Easter Show.
 
-### [Morf Dynamics (now Royal Wins)](http://www.royalwins.com/)
-#### Web Development Intern (Jan 2013 - Mar 2013)
+#### [Morf Dynamics (now Royal Wins)](http://www.royalwins.com/)
+##### Web Development Intern (Jan 2013 - Mar 2013)
+A summer internship with the web development and testing team at a digital games studio.
+
 * Coded, tested and designed parts of the Morf Media website and MojiKan admin using ASP.NET.
 * Quality assurance testing and bug logging of the MojiKan Unity game.
 * Created HTML email templates based on designs.
 
 
-## Education
+### Education
 
-### University of New South Wales
-#### Bachelor of Computer Science and Digital Media (double degree) 2015
+#### University of New South Wales
+##### Bachelor of Computer Science and Digital Media (double degree) 2015

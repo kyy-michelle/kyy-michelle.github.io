@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 .btn {
-  text-transform: uppercase;
+  font-weight: normal;
 
   &,
   &:active {
