@@ -32,7 +32,7 @@ Whilst tidying up the theme, I noticed that the page fonts were fairly difficult
 ![Screenshot before font update](/images/blog/site-fonts.jpg)
 
 #### Deploy
-Originally I planned to deploy from the `/docs` folder in the master branch, but it turns out that my current repository naming scheme [doesn't allow this](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch). So instead I decided to split the project into different branches like below.
+Originally I planned to deploy from the `/docs` folder in the master branch, but it turns out that my current repository naming scheme [doesn't allow this](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch). Instead I decided to split the project into different branches like below.
 
 | Branch           | Description |
 | ---------------- | ------------------------------------------------------------- |
@@ -40,3 +40,5 @@ Originally I planned to deploy from the `/docs` folder in the master branch, but
 | [/dev](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev) | Site Vue/Nuxt codebase |
 | [/dev-deploy](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev-deploy) | Branch to merge site generated from /dev into /master |
 
+\
+So deploying changes would be something like this: update /dev, generate static site, change branch to /dev-deploy, overwrite branch with content of dist folder, commit and finally merge into master. 

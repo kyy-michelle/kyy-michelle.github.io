@@ -11,7 +11,7 @@
 
 // Basic global styling
 body {
-  background-color: $gray-300;
+  background-color: #f8e0a7;
 }
 
 code {
@@ -77,5 +77,19 @@ a {
     background-position: center;
     background-size: cover;
     z-index: -1;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
   }
 }

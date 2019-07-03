@@ -21,9 +21,9 @@
 
 <style lang="scss" scoped>
 .content {
-  padding-top: 92px;
-  padding-bottom: 92px;
+  padding-top: 102px;
+  padding-bottom: 102px;
   text-align: center;
-  background-color: #eee;
+  background-color: rgba(245, 245, 245, 0.95);
 }
 </style>
