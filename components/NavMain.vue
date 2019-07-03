@@ -24,8 +24,12 @@
 
 <style lang="scss" scoped>
 .nav {
+  display: flex;
+
   .nav-item {
     .nav-link {
+      padding-left: initial;
+      padding-right: initial;
       border-radius: 0;
       border-bottom: none;
 

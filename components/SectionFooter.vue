@@ -4,7 +4,7 @@
       <div class="row">
         <div class="content col-md-8 offset-md-2 px-3 px-md-4">
           <h2>Contact Michelle</h2>
-          <p>
+          <p class="mb-0">
             Email me at
             <a href="mailto:kyy.michelle@gmail.com">kyy.michelle@gmail.com</a>
             <br />
@@ -24,6 +24,6 @@
   padding-top: 102px;
   padding-bottom: 102px;
   text-align: center;
-  background-color: rgba(245, 245, 245, 0.95);
+  background-color: rgb(245, 245, 245);
 }
 </style>

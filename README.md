@@ -2,7 +2,7 @@
 
 | Branch           | Description |
 | ---------------- | ------------------------------------------------------------- |
-| [/master](https://github.com/kyymichelle/kyymichelle.github.io) | Branch where the Github Page is deployed from |
+| [/master](https://github.com/kyymichelle/kyymichelle.github.io) | Branch where the Github Page is published from |
 | [/dev](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev) | Site Vue/Nuxt codebase |
 | [/dev-deploy](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev-deploy) | Branch to merge site generated from /dev into /master |
 
