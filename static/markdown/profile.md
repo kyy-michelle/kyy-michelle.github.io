@@ -30,5 +30,5 @@ A summer internship with the web development and testing team at a digital games
 
 ### Education
 
-#### University of New South Wales
-##### Bachelor of Computer Science and Digital Media <small>(double degree) 2015</small>
+##### Bachelor of Computer Science and Digital Media <small>(double degree)</small>
+University of New South Wales 2015
