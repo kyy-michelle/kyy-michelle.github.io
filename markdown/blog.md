@@ -36,9 +36,9 @@ Originally I planned to deploy from the `/docs` folder in the master branch, but
 
 | Branch           | Description |
 | ---------------- | ------------------------------------------------------------- |
-| [/master](https://github.com/kyymichelle/kyymichelle.github.io) | Branch where the Github Page is deployed from |
+| [/master](https://github.com/kyymichelle/kyymichelle.github.io) | Branch where the Github Page is published from |
 | [/dev](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev) | Site Vue/Nuxt codebase |
 | [/dev-deploy](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev-deploy) | Branch to merge site generated from /dev into /master |
 
 \
-So deploying changes would be something like this: update /dev, generate static site, change branch to /dev-deploy, overwrite branch with content of dist folder, commit and finally merge into master. 
+So deploying changes would go something like this: update /dev, generate static site, change branch to /dev-deploy, overwrite branch with content of dist folder, commit and finally merge into master. 
