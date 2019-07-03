@@ -1,7 +1,7 @@
 ### Work Experience
 
 #### [Red Ant](https://redant.com.au/)
-##### Front End Developer (May 2016 - Present)
+##### Front End Developer <small>(May 2016 - Present)</small>
 Worked as part of the Front End team at an agency that specialises in delivering Ruby on Rails projects.
 
 * Implemented a product rebrand and new features on a popular Australian [health and fitness subscription service](https://www.12wbt.com/) using AngularJS. 
@@ -11,7 +11,7 @@ Worked as part of the Front End team at an agency that specialises in delivering
 * Conducted web accessibility tests on a [Ruby on Rails website](https://www.nps.org.au/) and made fixes in order for it to conform to Level AA of the WCAG 2.0.
 
 #### [The Gingerbread Man](http://www.thegingerbreadman.com.au/home)
-##### Junior Web Developer (Dec 2013 - Apr 2016)
+##### Junior Web Developer <small>(Dec 2013 - Apr 2016)</small>
 Worked on various web and desktop application projects with a small team of developers at a combined development and film post-production company.
 
 * Built and designed mobile responsive websites, widgets, email templates and HTML5 ads primarily using PHP and Javascript (jQuery, AngularJS).
@@ -19,8 +19,8 @@ Worked on various web and desktop application projects with a small team of deve
 * Developed a custom C# .NET [desktop application](http://www.socialseen.com.au/socialpod/) that watermarks, prints and uploads photographs. This was later integrated with the Instagram API to print photos based on hashtags. The system printed over 5500 photographs and gathered over 4000 unique email addresses at events run by the client. 
 * Developed an educational touchscreen application in Unity C# that was on display at the 2016 Sydney Royal Easter Show.
 
-#### [Morf Dynamics (now Royal Wins)](http://www.royalwins.com/)
-##### Web Development Intern (Jan 2013 - Mar 2013)
+#### [Morf Dynamics](http://www.royalwins.com/) <small>(now Royal Wins)</small>
+##### Web Development Intern <small>(Jan 2013 - Mar 2013)</small>
 A summer internship with the web development and testing team at a digital games studio.
 
 * Coded, tested and designed parts of the Morf Media website and MojiKan admin using ASP.NET.
@@ -31,4 +31,4 @@ A summer internship with the web development and testing team at a digital games
 ### Education
 
 #### University of New South Wales
-##### Bachelor of Computer Science and Digital Media (double degree) 2015
+##### Bachelor of Computer Science and Digital Media <small>(double degree) 2015</small>

@@ -1,7 +1,7 @@
 <template>
-  <div class="page-games">
+  <section class="page-games">
     <div v-html="gamesContent"></div>
-  </div>
+  </section>
 </template>
 
 <script>

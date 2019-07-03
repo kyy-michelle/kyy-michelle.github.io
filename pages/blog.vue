@@ -1,5 +1,7 @@
 <template>
-  <div class="" v-html="blogContent"></div>
+  <section class="page-blog">
+    <div v-html="blogContent"></div>
+  </section>
 </template>
 
 <script>
@@ -13,3 +15,11 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.page-blog {
+  h4 {
+    margin-top: 24px;
+  }
+}
+</style>

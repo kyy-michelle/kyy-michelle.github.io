@@ -1,12 +1,15 @@
 <template>
-  <a v-scroll-to="anchor" :href="anchor" class="btn btn-primary">
+  <a v-scroll-to="anchor" :href="anchor" :class="wrapperClass">
     <slot>Return</slot>
   </a>
 </template>
 
 <script>
 export default {
-  props: { anchor: { type: String, default: '' } }
+  props: {
+    anchor: { type: String, default: '' },
+    wrapperClass: { type: String, default: '' }
+  }
 }
 </script>
 

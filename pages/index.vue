@@ -12,7 +12,9 @@
     <div id="main-content" class="d-block">
       <content-container>
         <div class="d-block text-center pb-1">
-          <button-anchor anchor="#nav-main">&#8675; Profile</button-anchor>
+          <link-anchor anchor="#nav-main" wrapper-class="btn btn-primary"
+            >&#8675; Profile</link-anchor
+          >
         </div>
         <nav-main id="nav-main" class="pt-3"></nav-main>
         <main class="pt-3 pb-5" v-html="profileContent"></main>
@@ -23,7 +25,7 @@
 </template>
 
 <script>
-import ButtonAnchor from '~/components/ButtonAnchor'
+import LinkAnchor from '~/components/LinkAnchor'
 import NavMain from '~/components/NavMain'
 import ContentContainer from '~/components/ContentContainer'
 import SectionFooter from '~/components/SectionFooter'
@@ -32,7 +34,7 @@ import ProfileContent from '~/static/markdown/profile.md'
 export default {
   layout: 'home',
   components: {
-    ButtonAnchor,
+    LinkAnchor,
     NavMain,
     ContentContainer,
     SectionFooter
@@ -92,11 +94,15 @@ $content-lead-height: 68px; // Anchor link container height
   margin-top: -$content-lead-height;
 
   h3 {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
 
   ul {
-    margin-bottom: 32px;
+    margin-bottom: 42px;
+
+    li {
+      margin-bottom: 5px;
+    }
   }
 }
 </style>

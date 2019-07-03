@@ -1,29 +1,29 @@
 <template>
   <footer id="anchor-footer">
-    <content-container wrapper-class="footer">
-      <h2>Contact Michelle</h2>
-      <p>
-        Email me at
-        <a href="mailto:kyy.michelle@gmail.com">kyy.michelle@gmail.com</a>
-        <br />
-        Or connect with me at
-        <a href="https://www.linkedin.com/in/kyymichelle" target="_blank"
-          >LinkedIn</a
-        >
-      </p>
-      <a v-scroll-to="'#nav-main'" href="#nav-main">
-        Back to top
-      </a>
-    </content-container>
+    <div class="container">
+      <div class="row">
+        <div class="content col-md-8 offset-md-2 px-3 px-md-4">
+          <h2>Contact Michelle</h2>
+          <p>
+            Email me at
+            <a href="mailto:kyy.michelle@gmail.com">kyy.michelle@gmail.com</a>
+            <br />
+            Or connect with me at
+            <a href="https://www.linkedin.com/in/kyymichelle" target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
   </footer>
 </template>
 
-<script>
-import ContentContainer from '~/components/ContentContainer'
-
-export default {
-  components: {
-    ContentContainer
-  }
+<style lang="scss" scoped>
+.content {
+  padding-top: 92px;
+  padding-bottom: 92px;
+  text-align: center;
+  background-color: #eee;
 }
-</script>
+</style>

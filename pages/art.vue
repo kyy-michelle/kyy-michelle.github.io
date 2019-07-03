@@ -1,12 +1,13 @@
 <template>
-  <div class="">
+  <section>
     <a href="images/art/1.jpg" target="_blank">
       <img src="~/static/images/art/1.jpg" alt="E-Race" />
     </a>
     <h4 class="mt-3">E-Race (2010)</h4>
     <p>
       A four-piece wood and layered cardboard assemblage measuring
-      2.68x1.24x0.21m in total. The artist statement is below.
+      2.68x1.24x0.21m in total. This is a project I had worked on over a year,
+      the final artist statement is below.
     </p>
     <blockquote class="px-3">
       Once meaning 'out' or 'out of' (such as with evoke, eject and effuse), the
@@ -25,7 +26,7 @@
     <a href="images/art/3.jpg" target="_blank" class="wrapper-img mt-4">
       <img src="~/static/images/art/3.jpg" style="margin-top: -50%;" />
     </a>
-  </div>
+  </section>
 </template>
 
 <style lang="scss">
