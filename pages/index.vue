@@ -11,12 +11,12 @@
 
     <div id="main-content" class="d-block">
       <content-container>
-        <div class="d-block text-center pb-1">
+        <div class="d-block text-center pt-3 pb-1">
           <link-anchor anchor="#nav-main" wrapper-class="btn btn-primary"
             >&#8675; Profile</link-anchor
           >
         </div>
-        <nav-main id="nav-main" class="pt-3"></nav-main>
+        <nav-main id="nav-main" class="pt-3 pb-4"></nav-main>
         <main class="pt-3 pb-5" v-html="profileContent"></main>
       </content-container>
       <section-footer></section-footer>
@@ -93,15 +93,17 @@ $content-lead-height: 68px; // Anchor link container height
   top: 100%;
   margin-top: -$content-lead-height;
 
-  h3 {
-    margin-bottom: 16px;
-  }
+  main {
+    h3 {
+      margin-bottom: 16px;
+    }
 
-  ul {
-    margin-bottom: 42px;
+    ul {
+      margin-bottom: 42px;
 
-    li {
-      margin-bottom: 5px;
+      li {
+        margin-bottom: 5px;
+      }
     }
   }
 }

@@ -3,8 +3,8 @@
 | Branch           | Description |
 | ---------------- | ------------------------------------------------------------- |
 | [/master](https://github.com/kyymichelle/kyymichelle.github.io) | Branch where the Github Page is deployed from |
-| [/dev](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev) | Site codebase |
-| [/dev-deploy](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev-deploy) | Branch to merge site into master |
+| [/dev](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev) | Site Vue/Nuxt codebase |
+| [/dev-deploy](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev-deploy) | Branch to merge site generated from /dev into /master |
 
 To install and run, please make sure [yarn is installed](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
 ```bash
