@@ -12,9 +12,9 @@
     <div id="main-content" class="d-block">
       <content-container>
         <div class="d-block text-center pt-3 pb-1">
-          <link-anchor anchor="#nav-main" wrapper-class="btn btn-primary"
-            >&#8675; Profile</link-anchor
-          >
+          <link-anchor anchor="#nav-main" wrapper-class="btn btn-primary">
+            &#8675; Profile
+          </link-anchor>
         </div>
         <nav-main id="nav-main" class="pt-3 pb-4"></nav-main>
         <main class="pt-3 pb-5" v-html="profileContent"></main>
