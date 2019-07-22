@@ -1,23 +1,23 @@
 <template>
-  <section class="page-games">
-    <div v-html="gamesContent"></div>
+  <section class="page-projects">
+    <div v-html="projectsContent"></div>
   </section>
 </template>
 
 <script>
-import GamesContent from '~/static/markdown/games.md'
+import ProjectsContent from '~/static/markdown/projects.md'
 
 export default {
   data() {
     return {
-      gamesContent: GamesContent
+      projectsContent: ProjectsContent
     }
   }
 }
 </script>
 
 <style lang="scss">
-.page-games {
+.page-projects {
   img {
     max-width: 400px;
     margin-top: 24px;
