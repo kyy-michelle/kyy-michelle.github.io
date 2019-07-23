@@ -4,17 +4,19 @@
 
 ##### [Country guess game (WIP)](https://github.com/kyymichelle/country-guess-game)
 
-This is the current project I'm tinkering away on - it's a simple string guessing game where users can guess the name of a country based on given clues. The primary goal of doing this project is to learn how to use Typescript and to familiarise myself with structuring an application with Redux and [React Hooks](https://reactjs.org/docs/hooks-intro.html). Along the way, I am also using GraphQL APIs and writing tests using Jest with Enzyme.
+This is the current project I'm tinkering away on - it's a simple string guessing game where users can guess the name of a country based on given clues. The primary goal of doing this project is to learn how to use Typescript and to familiarise myself with structuring an application with Redux and [React Hooks](https://reactjs.org/docs/hooks-intro.html). Whilst the base of this game is simple, it's an extensible idea where I plan to add new features such as game difficulty levels and score tracking.
 
-Whilst the base of this game is simple, it is a very extensible idea where new features - such as clue difficulty levels and score tracking - can be added. 
+Tech: Typescript, React, Redux, GraphQL, Jest, Enzyme.
 
 <br />
 
 ##### [https://kyymichelle.github.io](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev)
 
-Recently I revamped this website such that it was more mobile friendly and moved away from using pure static HTML templates. The main purpose of this project was to try out Vue and Nuxt, as well as to showcase a bit of design. The codebase for this lovely little website is in [this repo](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev), under the `dev` branch. [Click here](/blog) to read more in my blog post.
+Recently, I revamped this website so that it was easier to update and so that it moved away from being static HTML pages. The main purpose of this project was to try out Vue and Nuxt, as well as demonstrate a bit of design. Read more about how this site was made in my [blog post](/blog).
 
-<br />
+Tech: Vue.js, Nuxt.js
+
+<hr />
 
 ## Game Projects
 
