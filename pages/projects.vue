@@ -22,5 +22,10 @@ export default {
     max-width: 400px;
     margin-top: 24px;
   }
+
+  hr {
+    margin: 40px 0;
+    border-top-style: dotted;
+  }
 }
 </style>
