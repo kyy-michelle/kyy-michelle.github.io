@@ -1,12 +1,18 @@
 ### Work Experience
 
+#### [Managed App](https://www.managedapp.com.au/)
+##### Software Developer <small>(Sep 2019 - Present)</small>
+Full-stack role devloping a growing property management platform.
+
+* Front end support and feature work using React and Redux state management.
+* Developed and tested APIs using Ruby on Rails.
+
 #### [Red Ant](https://redant.com.au/)
-##### Front End Developer <small>(May 2016 - Present)</small>
-Worked as part of the Front End team at an agency that specialises in delivering Ruby on Rails projects.
+##### Front End Developer <small>(May 2016 - Aug 2019)</small>
+Worked as part of the front end team at an agency that specialises in delivering Ruby on Rails projects.
 
 * Implemented a product rebrand and new features on a popular Australian [health and fitness subscription service](https://www.12wbt.com/) using AngularJS. 
 * [Migrated](https://www.voome.com.au/) AngularJS components to use Redux state management, this included writing unit tests in Jest and setting up automated UI tests in Ghost Inspector.
-* Created and styled React/Redux components for a growing online property management application.
 * Ongoing Ruby on Rails (Radiant CMS) maintenance and content management for a leading [nappy and childcare product brand](https://www.huggies.com.au).
 * Conducted web accessibility tests on a [Ruby on Rails website](https://www.nps.org.au/) and made fixes in order for it to conform to Level AA of the WCAG 2.0.
 
