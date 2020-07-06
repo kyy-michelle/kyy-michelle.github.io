@@ -33,26 +33,16 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt',
-    // Doc: https://axios.nuxtjs.org/usage
-    // '@nuxtjs/axios',
+    'bootstrap-vue/nuxt', // Doc: https://bootstrap-vue.js.org/docs/
     '@nuxtjs/eslint-module',
     '@nuxtjs/markdownit',
     ['vue-scrollto/nuxt', { duration: 600 }]
   ],
   /*
-   ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
-   */
-  axios: {},
-  /*
    ** Build configuration
    */
+  target: 'static',
   build: {
-    /*
-     ** You can extend webpack config here
-     */
     extend(config, ctx) {}
   },
   bootstrapVue: {

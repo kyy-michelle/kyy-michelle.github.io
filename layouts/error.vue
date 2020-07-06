@@ -8,7 +8,10 @@
 <script>
 export default {
   props: {
-    error: { type: Function, default: () => {} }
+    error: {
+      type: Function,
+      default: () => {}
+    }
   }
 }
 </script>
