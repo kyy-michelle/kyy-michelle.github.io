@@ -10,9 +10,9 @@ import ProjectsContent from '~/static/markdown/projects.md'
 export default {
   data() {
     return {
-      projectsContent: ProjectsContent
+      projectsContent: ProjectsContent,
     }
-  }
+  },
 }
 </script>
 

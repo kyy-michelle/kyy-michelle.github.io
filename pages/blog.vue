@@ -10,9 +10,9 @@ import BlogContent from '~/static/markdown/blog.md'
 export default {
   data() {
     return {
-      blogContent: BlogContent
+      blogContent: BlogContent,
     }
-  }
+  },
 }
 </script>
 

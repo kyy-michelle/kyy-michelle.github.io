@@ -11,11 +11,11 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: process.env.npm_package_description || '',
       },
-      { hid: 'robots', name: 'robots', content: 'noindex' }
+      { hid: 'robots', name: 'robots', content: 'noindex' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Customize the progress-bar color
@@ -36,21 +36,21 @@ export default {
     'bootstrap-vue/nuxt', // Doc: https://bootstrap-vue.js.org/docs/
     '@nuxtjs/eslint-module',
     '@nuxtjs/markdownit',
-    ['vue-scrollto/nuxt', { duration: 600 }]
+    ['vue-scrollto/nuxt', { duration: 600 }],
   ],
   /*
    ** Build configuration
    */
   target: 'static',
   build: {
-    extend(config, ctx) {}
+    extend(config, ctx) {},
   },
   bootstrapVue: {
     bootstrapCSS: false, // Or `css: false`
-    bootstrapVueCSS: false // Or `bvCSS: false`
+    bootstrapVueCSS: false, // Or `bvCSS: false`
   },
   router: {
     linkActiveClass: '',
-    linkExactActiveClass: 'active'
-  }
+    linkExactActiveClass: 'active',
+  },
 }

@@ -24,7 +24,7 @@
     </a>
 
     <a href="images/art/3.jpg" target="_blank" class="wrapper-img mt-4">
-      <img src="~/static/images/art/3.jpg" style="margin-top: -50%;" />
+      <img src="~/static/images/art/3.jpg" style="margin-top: -50%" />
     </a>
   </section>
 </template>

@@ -16,11 +16,11 @@ import ContentContainer from '~/components/ContentContainer'
 import SectionFooter from '~/components/SectionFooter'
 
 export default {
-  layout: 'home',
   components: {
     NavMain,
     ContentContainer,
-    SectionFooter
-  }
+    SectionFooter,
+  },
+  layout: 'home',
 }
 </script>

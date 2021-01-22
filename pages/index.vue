@@ -1,12 +1,8 @@
 <template>
   <div>
     <header class="header-content p-3">
-      <h1 class="title display-4">
-        Michelle Yeung
-      </h1>
-      <h3 class="subtitle">
-        Developer &amp; tinkerer
-      </h3>
+      <h1 class="title display-4">Michelle Yeung</h1>
+      <h3 class="subtitle">Developer &amp; tinkerer</h3>
     </header>
 
     <div id="main-content" class="d-block">
@@ -32,18 +28,18 @@ import SectionFooter from '~/components/SectionFooter'
 import ProfileContent from '~/static/markdown/profile.md'
 
 export default {
-  layout: 'home',
   components: {
     LinkAnchor,
     NavMain,
     ContentContainer,
-    SectionFooter
+    SectionFooter,
   },
+  layout: 'home',
   data() {
     return {
-      profileContent: ProfileContent
+      profileContent: ProfileContent,
     }
-  }
+  },
 }
 </script>
 

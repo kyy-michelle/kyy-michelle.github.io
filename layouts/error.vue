@@ -10,8 +10,8 @@ export default {
   props: {
     error: {
       type: Function,
-      default: () => {}
-    }
-  }
+      default: () => {},
+    },
+  },
 }
 </script>

@@ -17,8 +17,8 @@
 import LinkAnchor from '~/components/LinkAnchor'
 export default {
   components: {
-    LinkAnchor
-  }
+    LinkAnchor,
+  },
 }
 </script>
 

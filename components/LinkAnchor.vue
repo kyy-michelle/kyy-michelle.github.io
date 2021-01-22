@@ -8,8 +8,8 @@
 export default {
   props: {
     anchor: { type: String, default: '' },
-    wrapperClass: { type: String, default: '' }
-  }
+    wrapperClass: { type: String, default: '' },
+  },
 }
 </script>
 
