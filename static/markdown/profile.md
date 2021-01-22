@@ -1,6 +1,6 @@
 ### Work Experience
 
-#### [Managed App](https://www.managedapp.com.au/)
+#### <a href="https://www.managedapp.com.au/" target="_blank">Managed App</a>
 ##### Software Developer <small>(Sep 2019 - Present)</small>
 Full-stack role developing a growing property management platform.
 
@@ -10,7 +10,7 @@ Full-stack role developing a growing property management platform.
 * Worked with real estate agencies in creating features that suited their needs and a themed product that adhered to their brand guidelines.
 
 
-#### [Red Ant](https://redant.com.au/)
+#### <a href="https://redant.com.au/" target="_blank">Red Ant</a>
 ##### Front End Developer <small>(May 2016 - Aug 2019)</small>
 Worked as part of the front end team at an agency that specialises in delivering Ruby on Rails projects.
 
@@ -19,7 +19,7 @@ Worked as part of the front end team at an agency that specialises in delivering
 * Ongoing product maintenance and content management for a leading [nappy and childcare product brand](https://www.huggies.com.au) using Ruby on Rails (Radiant CMS).
 * Conducted web accessibility tests on a [Ruby on Rails website](https://www.nps.org.au/) and made fixes in order for it to conform to Level AA of the WCAG 2.0.
 
-#### [The Gingerbread Man](http://www.thegingerbreadman.com.au/home)
+#### <a href="http://www.thegingerbreadman.com.au/home" target="_blank">The Gingerbread Man</a>
 ##### Junior Web Developer <small>(Dec 2013 - Apr 2016)</small>
 Worked on various web and desktop application projects with a small team of developers at a combined development and film post-production company.
 
@@ -28,7 +28,7 @@ Worked on various web and desktop application projects with a small team of deve
 * Developed a custom C# .NET [desktop application](http://www.socialseen.com.au/socialpod/) that watermarks, prints and uploads photographs. This was later integrated with the Instagram API to print photos based on hashtags. The system printed over 5500 photographs and gathered over 4000 unique email addresses at events run by the client. 
 * Developed an educational touchscreen application in Unity C# that was on display at the 2016 Sydney Royal Easter Show.
 
-#### [Morf Dynamics](http://www.royalwins.com/) <small>(now Royal Wins)</small>
+#### <a href="http://www.royalwins.com/" target="_blank">Morf Dynamics <small>(now Royal Wins)</small></a>
 ##### Web Development Intern <small>(Jan 2013 - Mar 2013)</small>
 A summer internship with the web development and testing team at a digital games studio.
 

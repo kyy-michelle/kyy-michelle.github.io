@@ -2,19 +2,29 @@
 
 <br />
 
-##### [Country guess game (WIP)](https://github.com/kyymichelle/country-guess-game)
+##### <a href="https://smash.org.au/" target="_blank">SMASH! Anime Convention - Sydney Manga & Anime Show</a>
 
-This is the current project I'm tinkering away on - it's a simple string guessing game where users can guess the name of a country based on given clues. The primary goal of doing this project is to learn how to use Typescript and to familiarise myself with structuring an application with Redux and [React Hooks](https://reactjs.org/docs/hooks-intro.html). Whilst the base of this game is simple, it's an extensible idea where I plan to add new features such as game difficulty levels and score tracking.
+I help out on the ticket payment gateway of an annual Sydney manga and anime convention. This project is entirely volunteer driven and is where we experiment with the latest techniques and libraries to create a platform that is stable and easy to maintain.
 
-Tech: Typescript, React, Redux, GraphQL, Jest, Enzyme.
+Tech: Typescript, React, Redux
 
 <br />
 
-##### [https://kyymichelle.github.io](https://github.com/kyymichelle/kyymichelle.github.io/tree/dev)
+##### <a href="https://github.com/kyymichelle/kyymichelle.github.io/tree/dev" target="_blank">https://kyymichelle.github.io!</a>
 
-Recently, I revamped this website so that it was easier to update and so that it moved away from being static HTML pages. The main purpose of this project was to try out Vue and Nuxt, as well as demonstrate a bit of design. Read more about how this site was made in my [blog post](/blog).
+I revamped this website so that it was easier to update and so that it moved away from being a series static HTML templates. The main purpose of this project was to try out Vue and Nuxt, as well as demonstrate a bit of design. Read more about how this site was made in my [blog post](/blog).
 
-Tech: Vue.js, Nuxt.js
+Tech: Vue, Nuxt
+
+<br />
+
+##### <a href="https://github.com/kyymichelle/country-guess-game" target="_blank">Country guess game (WIP)</a>
+
+This is the current project I'm tinkering away on - it's a simple string guessing game where users can guess the name of a country based on given clues. The primary goal of doing this project is to learn how to use Typescript and to familiarise myself with structuring an application with Redux and [React Hooks](https://reactjs.org/docs/hooks-intro.html). Whilst the base of this game is simple, it's an extensible idea where I plan to add new features such as game difficulty levels and score tracking.
+
+Tech: Typescript, React, Redux, GraphQL
+
+<br />
 
 <hr />
 
